@@ -1,7 +1,7 @@
 import type { NextConfig } from 'next'
 
 const isProd = process.env.NODE_ENV === 'production'
-const repo = 'my-site' // เปลี่ยนเป็นชื่อ repo ของคุณ
+const repo = 'my-sites' // เปลี่ยนเป็นชื่อ repo ของคุณ
 
 const nextConfig: NextConfig = {
   output: 'export',
